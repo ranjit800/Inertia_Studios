@@ -301,7 +301,7 @@ const IdeasSection = () => {
               </div>
 
         {/* Right Side (News List + Bottom Link) */}
-        <div className="hidden md:block flex-col gap-14 pt-5 text-sm md:text-base min-w-0 w-full lg:w-[40%]  px-16" onMouseLeave={handleNewsLeave}>
+        <div className="hidden md:flex flex-col gap-12 pt-5 text-sm md:text-base min-w-0 w-full lg:w-[40%] px-16" onMouseLeave={handleNewsLeave}>
           {newsItems.map((item, idx) => (
             <div
               key={idx}
