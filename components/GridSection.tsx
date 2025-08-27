@@ -1,4 +1,4 @@
-// components/GridStructure.tsx
+
 
 "use client";
 

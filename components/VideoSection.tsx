@@ -1,4 +1,4 @@
-"use client"; // This component needs to be client-side due to useState and useRef
+"use client"; 
 
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
