@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
+
 const Hero = () => {
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const stickyRef = useRef<HTMLDivElement | null>(null);
@@ -78,17 +79,17 @@ const Hero = () => {
           {/* Left Center Small Text (Horizontal) */}
           <motion.span
             ref={leftSmallRef}
-            className="absolute left-16 top-1/2 -translate-y-1/2 text-sm font-neue font-medium tracking-wide"
+            className="absolute left-16 top-1/2 -translate-y-1/2 text-sm font-neue font-medium tracking-wide "
             style={{ opacity: smallTextOpacity }}
           >
-            A CREATIVE CGI STUDIO
+            A CREATIVE CGI <span className="font-bold">STUDIO</span>
           </motion.span>
           {/* Right Center Small Text (Horizontal) */}
           <span
             ref={rightSmallRef}
             className="absolute right-16 top-1/2 -translate-y-1/2 text-sm font-neue font-medium tracking-wide text-right"
           >
-            - SETTING BRANDS IN MOTION
+            SETTING BRANDS <span className="font-bold">IN MOTION</span> 
           </span>
 
           {/* Video wrapper starts small and scales up on scroll */}
@@ -118,5 +119,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-  
