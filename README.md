@@ -188,8 +188,9 @@ This project is private and proprietary to Inertia Studios.
 **Ranjit** - [GitHub Profile](https://github.com/ranjit800)
 
 ## 📞 Contact
+rjranjit099@gmail.com
+91 8001801496
 
-For questions or support, please contact the development team or visit the live site.
 
 ---
 
