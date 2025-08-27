@@ -301,15 +301,15 @@ const IdeasSection = () => {
               </div>
 
         {/* Right Side (News List + Bottom Link) */}
-        <div className="hidden md:flex flex-col gap-12 pt-5 text-sm md:text-base min-w-0 w-full lg:w-[40%] px-16" onMouseLeave={handleNewsLeave}>
+        <div className="hidden md:flex font-neue flex-col gap-12 pt-5 text-sm md:text-base min-w-0 w-full lg:w-[40%] px-16" onMouseLeave={handleNewsLeave}>
           {newsItems.map((item, idx) => (
             <div
               key={idx}
               className="group cursor-pointer"
               onMouseEnter={() => handleNewsHover(idx)}
             >
-              <p className="uppercase text-xs mb-1">{item.tag}</p>
-              <p className="leading-snug">{item.text}</p>
+              <p className="uppercase md:text-sm text-xs mb-1">{item.tag}</p>
+              <p className="leading-snug text-xl ">{item.text}</p>
               <div
                 className="h-[0.5px] bg-gray-900 mt-7 transition-all duration-300 ease-in-out"
                 style={{
